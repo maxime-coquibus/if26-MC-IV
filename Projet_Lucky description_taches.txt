@@ -1,0 +1,48 @@
+--------------------------------------------------------------------
+Appli qui doit marcher le jour de la soutenance sinon pas la moyenne
+--------------------------------------------------------------------
+LUCKY
+----------------------------
+2) jouer à des petits jeux de hasard de type loterie (proba de gain), défini nombre de gagnats maxi. Coté smartphone, différent jeux auquels on peut jouer x fois par jour maximum. Lots gagnés ne sont plus jouables
+----------------------------
+
+Coté admin
+----------------------------
+Configuration des jeux -> définir la probabilité de gagner et le nombre de gagnant max
+
+Au niveau admin proposer des interfaces différentes -> changement couleur par exemple (en gros, on propose 5 jeux à chaque fois et dans l'admin, on propose de changer l'animation et le fond) 
+ 
+
+Coté client 
+----------------------------
+Système de login, mot de passe (attention à la sécurité)
+CF Schéma. 3 Onglets : liste des jeux, Historique, Infos.
+
+Liste des jeux
+--------------
+
+Mini jeu 1 : appuyer sur un bouton et ça dit si on a gagné ou non. Amélioration avec une roue par exemple
+
+Mini jeu 2 : machine à sous
+
+Mini jeu 3 : jeu de carte simple ? 1 carte de chaque coté, si une carte est plus forte qu'une autre il gagne. 
+
+Mini jeu 4 : Dé qui sont secoués 
+
+A partir d'un certain nombre de gagnants sur chaque jeu : notification -> le jeu n'est plus jouable car suffisamment de gagnant pour aujourd'hui. 
+
+Notification par jour : le droit de jouer à 3 jeux par exemple : vous avez le droit de jouer à nouveau à ce jeu avec tant de tentatives
+-> notif par mail (ou push si on a un compte développeur)
+
+Historique 
+-------------
+Historique des jeux auquels on a joué avec la date, si on a gagné ou perdu, stats
+
+Infos 
+-------------
+Lien vers page Facebook, site web, notation AppStore, Copyright créateur
+
+
+
+
+
